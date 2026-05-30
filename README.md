@@ -68,3 +68,22 @@ streamlit run app.py
 The app will open at `http://localhost:8501`
 
 ## 📁 Project Structure
+resume_analyzer_coaching_system/
+│
+├── app.py                          # Main Streamlit application (UI)
+├── database.py                     # In-memory database (no MongoDB needed)
+├── resume_parser.py                # Resume parsing & skill extraction
+├── openai_integration.py           # OpenAI API integration for AI analysis
+├── config.py                       # Configuration & constants
+├── requirements.txt                # Python dependencies
+├── .env                            # Environment variables (API keys) - NOT committed
+├── .gitignore                      # Git ignore file
+├── README.md                       # Project documentation
+├── LICENSE                         # MIT License
+│
+├── examples/                       # Sample files (optional)
+│   ├── sample_resume.pdf
+│   └── sample_resume.docx
+│
+└── output/                         # Generated files (optional)
+    └── .gitkeep
